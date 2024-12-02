@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chaseboard{
+    border: 2px solid black;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 1px white;
+}
+.chaseboard div{
+    width: 10%;
+    height: 80px;
+    width: calc(100%/8);
+
+}
+.a{
+    background-color: lightgray;
+}
+.b{
+    background-color: rgb(5, 5, 5);
+}
